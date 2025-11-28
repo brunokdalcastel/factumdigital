@@ -46,7 +46,7 @@ const Footer = () => {
                     <div>
                         <h4 className="text-white font-bold mb-6 uppercase tracking-widest text-sm">Serviços</h4>
                         <ul className="space-y-3">
-                            {['Recuperação de Dados', 'Perícia Digital', 'Compliance LGPD', 'Investigação de Fraudes', 'Análise de Ransomware'].map((item) => (
+                            {['Recuperação de Dados', 'Perícia Digital', 'Investigação de Fraudes'].map((item) => (
                                 <li key={item}>
                                     <a href="#" className="text-text-secondary hover:text-secondary text-sm transition-colors">
                                         {item}
@@ -62,15 +62,15 @@ const Footer = () => {
                         <ul className="space-y-4">
                             <li className="flex items-start space-x-3 text-text-secondary text-sm">
                                 <MapPin className="w-5 h-5 text-secondary shrink-0" />
-                                <span>Av. Paulista, 1000 - Bela Vista<br />São Paulo - SP</span>
+                                <span>Endereço a definir - São Paulo, SP</span>
                             </li>
                             <li className="flex items-center space-x-3 text-text-secondary text-sm">
                                 <Phone className="w-5 h-5 text-secondary shrink-0" />
-                                <span>(11) 3000-0000</span>
+                                <span>(11) 99999-9999</span>
                             </li>
                             <li className="flex items-center space-x-3 text-text-secondary text-sm">
                                 <Mail className="w-5 h-5 text-secondary shrink-0" />
-                                <span>contato@veritaserum.com.br</span>
+                                <span>contato@email.com</span>
                             </li>
                         </ul>
                     </div>

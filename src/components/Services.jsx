@@ -18,16 +18,8 @@ const services = [
         title: 'Investigação Corporativa',
         description: 'Detecção de fraudes, vazamento de informações e concorrência desleal através de análise forense digital.'
     },
-    {
-        icon: <ShieldAlert className="w-10 h-10 text-secondary" />,
-        title: 'Compliance LGPD',
-        description: 'Auditoria e adequação de sistemas para conformidade com a Lei Geral de Proteção de Dados.'
-    },
-    {
-        icon: <HardDrive className="w-10 h-10 text-secondary" />,
-        title: 'Análise de Malware',
-        description: 'Engenharia reversa e análise comportamental de softwares maliciosos e ataques de ransomware.'
-    },
+
+
     {
         icon: <Lock className="w-10 h-10 text-secondary" />,
         title: 'Cadeia de Custódia',

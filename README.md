@@ -71,3 +71,20 @@ Todos os direitos reservados.
 
 ---
 *Desenvolvido como parte de um projeto de portfólio de Engenharia de Software e UI/UX.*
+
+---
+
+## 🔄 Workflow de Desenvolvimento
+
+Este projeto segue um fluxo de trabalho profissional utilizando Git Flow simplificado:
+
+1.  **`develop`**: Branch principal de desenvolvimento. Todo trabalho novo começa e termina aqui.
+2.  **`main`**: Branch de produção. Espelho do que está no ar. Apenas recebe merges da `develop` quando está estável.
+
+### Como Publicar (Deploy)
+
+1.  Garanta que suas alterações estão salvas na `develop`.
+2.  Mude para a branch `main`: `git checkout main`
+3.  Traga as novidades: `git merge develop`
+4.  Envie para o GitHub: `git push`
+5.  Execute o deploy: `npm run deploy`
