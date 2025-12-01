@@ -14,10 +14,7 @@ const Footer = () => {
                                 VERITAS<span className="text-secondary">ERUM</span>
                             </span>
                         </div>
-                        <p className="text-text-secondary text-sm leading-relaxed mb-6">
-                            Líderes em computação forense e recuperação de dados.
-                            Compromisso inabalável com a verdade e a segurança da informação.
-                        </p>
+
                         <div className="flex space-x-4">
                             <a href="#" className="text-text-secondary hover:text-secondary transition-colors">
                                 <Linkedin size={20} />
@@ -32,7 +29,7 @@ const Footer = () => {
                     <div>
                         <h4 className="text-white font-bold mb-6 uppercase tracking-widest text-sm">Links Rápidos</h4>
                         <ul className="space-y-3">
-                            {['Home', 'Serviços', 'Sobre Nós', 'Operação', 'Blog', 'Contato'].map((item) => (
+                            {['Home', 'Serviços', 'Operação', 'Blog', 'Contato'].map((item) => (
                                 <li key={item}>
                                     <a href="#" className="text-text-secondary hover:text-secondary text-sm transition-colors">
                                         {item}

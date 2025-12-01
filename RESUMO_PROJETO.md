@@ -67,3 +67,18 @@ npm run build
 - **Imagens**: Adicionar imagens reais da equipe ou escritório se disponível.
 - **SEO**: Refinar meta tags e descrições para melhor indexação.
 - **Formulário**: Implementar um formulário de contato funcional (ex: usando EmailJS ou backend próprio).
+
+## 6. Workflow de Desenvolvimento
+
+O projeto segue um fluxo de trabalho profissional utilizando Git Flow simplificado:
+
+1.  **`develop`**: Branch principal de desenvolvimento. Todo trabalho novo começa e termina aqui.
+2.  **`main`**: Branch de produção. Espelho do que está no ar. Apenas recebe merges da `develop` quando está estável.
+
+### Como Publicar (Deploy)
+
+1.  Garanta que suas alterações estão salvas na `develop`.
+2.  Mude para a branch `main`: `git checkout main`
+3.  Traga as novidades: `git merge develop`
+4.  Envie para o GitHub: `git push`
+5.  Execute o deploy: `npm run deploy`
