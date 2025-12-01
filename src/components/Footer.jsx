@@ -1,5 +1,5 @@
 import React from 'react';
-import { ShieldCheck, Mail, Phone, MapPin, Linkedin, Instagram } from 'lucide-react';
+import { ShieldCheck, Mail, Phone, MapPin, Instagram } from 'lucide-react';
 
 const Footer = () => {
     return (
@@ -16,9 +16,7 @@ const Footer = () => {
                         </div>
 
                         <div className="flex space-x-4">
-                            <a href="#" className="text-text-secondary hover:text-secondary transition-colors">
-                                <Linkedin size={20} />
-                            </a>
+
                             <a href="#" className="text-text-secondary hover:text-secondary transition-colors">
                                 <Instagram size={20} />
                             </a>
