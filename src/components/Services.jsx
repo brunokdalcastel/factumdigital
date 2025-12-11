@@ -4,26 +4,14 @@ import { Database, Scale, FileSearch, ShieldAlert, HardDrive, Lock } from 'lucid
 
 const services = [
     {
-        icon: <Database className="w-10 h-10 text-secondary" />,
-        title: 'Recuperação de Dados',
-        description: 'Recuperação avançada em HDs, SSDs, servidores RAID e dispositivos móveis com laboratório limpo classe 100.'
+        icon: <FileSearch className="w-10 h-10 text-secondary" />,
+        title: 'Laudos Técnicos',
+        description: 'Elaboração de documentos técnicos detalhados e pareceres fundamentados para processos judiciais e administrativos.'
     },
     {
         icon: <Scale className="w-10 h-10 text-secondary" />,
         title: 'Perícia Judicial',
         description: 'Assistência técnica em processos judiciais, elaboração de laudos e pareceres técnicos com validade jurídica.'
-    },
-    {
-        icon: <FileSearch className="w-10 h-10 text-secondary" />,
-        title: 'Investigação Corporativa',
-        description: 'Detecção de fraudes, vazamento de informações e concorrência desleal através de análise forense digital.'
-    },
-
-
-    {
-        icon: <Lock className="w-10 h-10 text-secondary" />,
-        title: 'Cadeia de Custódia',
-        description: 'Preservação rigorosa da integridade da prova digital desde a coleta até a apresentação em juízo.'
     }
 ];
 
@@ -39,7 +27,7 @@ const Services = () => {
                     </p>
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
                     {services.map((service, index) => (
                         <motion.div
                             key={index}

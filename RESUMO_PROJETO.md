@@ -82,3 +82,5 @@ O projeto segue um fluxo de trabalho profissional utilizando Git Flow simplifica
 3.  Traga as novidades: `git merge develop`
 4.  Envie para o GitHub: `git push`
 5.  Execute o deploy: `npm run deploy`
+
+

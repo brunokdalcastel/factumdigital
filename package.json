@@ -1,7 +1,7 @@
 {
-  "name": "veritaserum-forensics",
+  "name": "factum-analise-digital",
   "private": false,
-  "homepage": "https://brunokdalcastel.github.io/veritaserum-forensics",
+  "homepage": "https://brunokdalcastel.github.io/factum-analise-digital",
   "version": "0.0.0",
   "type": "module",
   "scripts": {

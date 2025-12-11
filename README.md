@@ -1,8 +1,8 @@
-# 🕵️‍♂️ Veritaserum Forensics
+# 🕵️‍♂️ Factum Análise Digital
 
 > **"A Verdade Digital Revelada"**
 
-Este é o repositório oficial do site institucional da **Veritaserum Forensics**, uma empresa fictícia especializada em computação forense, recuperação de dados e investigações corporativas.
+Este é o repositório oficial do site institucional da **Factum Análise Digital**, uma empresa fictícia especializada em computação forense e laudos técnicos.
 
 O projeto foi desenvolvido com foco em transmitir **autoridade**, **segurança** e **alta tecnologia**, utilizando uma estética "Dark Mode" corporativa inspirada em grandes players do mercado forense.
 
@@ -44,8 +44,8 @@ Certifique-se de ter o [Node.js](https://nodejs.org/) instalado.
 
 1.  **Clone o repositório:**
     ```bash
-    git clone https://github.com/brunokdalcastel/veritaserum-forensics.git
-    cd veritaserum-forensics
+    git clone https://github.com/brunokdalcastel/factum-analise-digital.git
+    cd factum-analise-digital
     ```
 
 2.  **Instale as dependências:**
@@ -66,7 +66,7 @@ Certifique-se de ter o [Node.js](https://nodejs.org/) instalado.
 
 ## 📄 Licença
 
-Este projeto é privado e proprietário da **Veritaserum Forensics**.
+Este projeto é privado e proprietário da **Factum Análise Digital**.
 Todos os direitos reservados.
 
 ---

@@ -33,7 +33,7 @@ const Hero = () => {
                     </h1>
 
                     <p className="text-text-secondary text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed">
-                        Especialistas em recuperação de dados, perícia judicial e investigação de fraudes corporativas.
+                        Especialistas em perícia digital e laudos técnicos.
                         Transformamos bytes em evidências irrefutáveis.
                     </p>
 

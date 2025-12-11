@@ -11,7 +11,7 @@ const Footer = () => {
                         <div className="flex items-center space-x-2 mb-6">
                             <ShieldCheck className="w-8 h-8 text-secondary" />
                             <span className="text-2xl font-bold text-white tracking-wider">
-                                VERITAS<span className="text-secondary">ERUM</span>
+                                FACTUM <span className="text-secondary">DIGITAL</span>
                             </span>
                         </div>
 
@@ -41,7 +41,7 @@ const Footer = () => {
                     <div>
                         <h4 className="text-white font-bold mb-6 uppercase tracking-widest text-sm">Serviços</h4>
                         <ul className="space-y-3">
-                            {['Recuperação de Dados', 'Perícia Digital', 'Investigação de Fraudes'].map((item) => (
+                            {['Perícia Digital', 'Laudos Técnicos'].map((item) => (
                                 <li key={item}>
                                     <a href="#" className="text-text-secondary hover:text-secondary text-sm transition-colors">
                                         {item}
@@ -72,7 +72,7 @@ const Footer = () => {
                 </div>
 
                 <div className="border-t border-white/5 pt-8 flex flex-col md:flex-row justify-between items-center text-xs text-text-secondary">
-                    <p>&copy; 2024 Veritaserum Forensics. Todos os direitos reservados.</p>
+                    <p>&copy; 2024 Factum Análise Digital. Todos os direitos reservados.</p>
                     <div className="flex space-x-6 mt-4 md:mt-0">
                         <a href="#" className="hover:text-white transition-colors">Política de Privacidade</a>
                         <a href="#" className="hover:text-white transition-colors">Termos de Uso</a>

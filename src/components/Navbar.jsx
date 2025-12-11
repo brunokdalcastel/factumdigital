@@ -34,7 +34,7 @@ const Navbar = () => {
                 <a href="#" className="flex items-center space-x-2 group">
                     <ShieldCheck className="w-8 h-8 text-secondary group-hover:text-gold transition-colors duration-300" />
                     <span className="text-2xl font-bold text-text-primary tracking-wider">
-                        VERITAS<span className="text-secondary">ERUM</span>
+                        FACTUM <span className="text-secondary">DIGITAL</span>
                     </span>
                 </a>
 
