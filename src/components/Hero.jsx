@@ -34,7 +34,7 @@ const Hero = () => {
 
                     <p className="text-text-secondary text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed">
                         Especialistas em perícia digital e laudos técnicos.
-                        Transformamos bytes em evidências irrefutáveis.
+                        Transformamos dados em evidências técnicas sólidas e fundamentadas.
                     </p>
 
                     <div className="flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0 md:space-x-6">
