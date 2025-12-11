@@ -1,6 +1,6 @@
 # 🕵️‍♂️ Factum Análise Digital
 
-> **"A Verdade Digital Revelada"**
+> **"Excelência em Perícia Digital"**
 
 Este é o repositório oficial do site institucional da **Factum Análise Digital**, uma empresa fictícia especializada em computação forense e laudos técnicos.
 

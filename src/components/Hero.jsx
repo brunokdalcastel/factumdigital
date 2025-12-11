@@ -26,9 +26,9 @@ const Hero = () => {
                     </div>
 
                     <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 tracking-tight leading-tight">
-                        A Verdade Digital <br />
+                        Excelência em <br />
                         <span className="text-transparent bg-clip-text bg-gradient-to-r from-secondary to-blue-500">
-                            Revelada
+                            Perícia Digital
                         </span>
                     </h1>
 

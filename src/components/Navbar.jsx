@@ -49,9 +49,6 @@ const Navbar = () => {
                             {link.name}
                         </a>
                     ))}
-                    <button className="px-6 py-2 border border-secondary text-secondary hover:bg-secondary/10 transition-all duration-300 rounded text-sm font-medium uppercase tracking-widest">
-                        Emergência
-                    </button>
                 </div>
 
                 {/* Mobile Menu Button */}
@@ -83,9 +80,6 @@ const Navbar = () => {
                                 {link.name}
                             </a>
                         ))}
-                        <button className="w-full px-6 py-3 border border-secondary text-secondary hover:bg-secondary/10 transition-all duration-300 rounded text-sm font-medium uppercase tracking-widest">
-                            Emergência 24h
-                        </button>
                     </div>
                 </motion.div>
             )}
