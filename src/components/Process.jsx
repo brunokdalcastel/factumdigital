@@ -5,23 +5,23 @@ import { ClipboardCheck, HardDrive, Microscope, FileText } from 'lucide-react';
 const steps = [
     {
         icon: <ClipboardCheck className="w-8 h-8" />,
-        title: '1. Diagnóstico',
-        description: 'Avaliação inicial do dispositivo ou incidente para determinar a viabilidade e estratégia.'
+        title: 'Estratégia e Quesitos',
+        description: 'Análise preliminar da viabilidade técnica da prova e elaboração de Quesitos Técnicos estratégicos para direcionar a perícia judicial e fortalecer a tese jurídica.'
     },
     {
         icon: <HardDrive className="w-8 h-8" />,
-        title: '2. Coleta',
-        description: 'Aquisição forense dos dados garantindo a integridade e preservação da prova (Cadeia de Custódia).'
+        title: 'Preservação e Coleta',
+        description: 'Aquisição forense de evidências (em nuvem, mobile ou computadores) seguindo rigorosamente a ISO 27037 e garantindo a Cadeia de Custódia para evitar nulidades processuais.'
     },
     {
         icon: <Microscope className="w-8 h-8" />,
-        title: '3. Análise',
-        description: 'Exame minucioso dos dados utilizando softwares forenses de ponta para extrair evidências.'
+        title: 'Análise Investigativa',
+        description: 'Processamento avançado de dados com softwares líderes de mercado para recuperar informações deletadas, identificar autoria e correlacionar fatos digitais ocultos.'
     },
     {
         icon: <FileText className="w-8 h-8" />,
-        title: '4. Laudo',
-        description: 'Entrega de relatório técnico detalhado, conclusivo e pronto para uso judicial.'
+        title: 'Parecer Técnico',
+        description: 'Elaboração de documento técnico robusto, com linguagem clara e conclusiva, para instruir a defesa, contestar laudos adversos e esclarecer fatos ao juízo.'
     }
 ];
 
@@ -71,7 +71,7 @@ const Process = () => {
                                     </div>
                                 </div>
 
-                                <h3 className="text-lg font-bold text-white text-center mb-3">{step.title.split('. ')[1]}</h3>
+                                <h3 className="text-lg font-bold text-white text-center mb-3">{step.title}</h3>
                                 <p className="text-text-secondary text-sm text-center leading-relaxed">
                                     {step.description}
                                 </p>
