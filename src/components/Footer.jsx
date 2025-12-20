@@ -3,7 +3,7 @@ import { ShieldCheck, Mail, Instagram } from 'lucide-react';
 
 const Footer = () => {
     return (
-        <footer className="bg-primary-dark pt-16 pb-8 border-t border-white/5">
+        <footer id="contact" className="bg-primary-dark pt-16 pb-8 border-t border-white/5">
             <div className="container mx-auto px-6">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
                     {/* Brand Column */}
@@ -32,6 +32,7 @@ const Footer = () => {
                                 { name: 'Serviços', href: '#services' },
                                 { name: 'Operação', href: '#process' },
                                 { name: 'Sobre', href: '#about' },
+                                { name: 'Contato', href: '#contact' },
                             ].map((item) => (
                                 <li key={item.name}>
                                     <a href={item.href} className="text-text-dim hover:text-secondary text-sm transition-colors">
