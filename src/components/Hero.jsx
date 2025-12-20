@@ -38,12 +38,12 @@ const Hero = () => {
                     </p>
 
                     <div className="flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0 md:space-x-6">
-                        <button className="group relative px-8 py-4 bg-secondary text-primary-dark font-bold rounded overflow-hidden transition-all hover:shadow-[0_0_20px_rgba(100,255,218,0.5)]">
+                        <a href="#request-guide" className="group relative px-8 py-4 bg-secondary text-primary-dark font-bold rounded overflow-hidden transition-all hover:shadow-[0_0_20px_rgba(100,255,218,0.5)]">
                             <span className="relative z-10 flex items-center">
                                 Solicitar Análise
                                 <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
                             </span>
-                        </button>
+                        </a>
 
                         <a href="#process" className="px-8 py-4 border border-text-secondary text-white font-medium rounded hover:bg-white/5 transition-colors flex items-center">
                             <Search className="mr-2 w-5 h-5" />

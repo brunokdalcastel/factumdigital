@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Services from './components/Services';
 import Process from './components/Process';
+import ContactGuide from './components/ContactGuide';
 import Footer from './components/Footer';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <Hero />
         <Services />
         <Process />
+        <ContactGuide />
       </main>
       <Footer />
     </div>
