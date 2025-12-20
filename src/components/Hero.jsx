@@ -45,10 +45,10 @@ const Hero = () => {
                             </span>
                         </button>
 
-                        <button className="px-8 py-4 border border-text-secondary text-white font-medium rounded hover:bg-white/5 transition-colors flex items-center">
+                        <a href="#process" className="px-8 py-4 border border-text-secondary text-white font-medium rounded hover:bg-white/5 transition-colors flex items-center">
                             <Search className="mr-2 w-5 h-5" />
                             Conheça Nossos Serviços
-                        </button>
+                        </a>
                     </div>
                 </motion.div>
             </div>
