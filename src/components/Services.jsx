@@ -17,7 +17,7 @@ const services = [
 
 const Services = () => {
     return (
-        <section id="services" className="py-20 bg-primary-light relative">
+        <section id="services" className="py-20 bg-background relative">
             <div className="container mx-auto px-6">
                 <div className="text-center mb-16">
                     <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Nossas Especialidades</h2>
@@ -35,12 +35,12 @@ const Services = () => {
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true }}
                             transition={{ delay: index * 0.1 }}
-                            className="bg-primary p-8 rounded-lg border border-white/5 hover:border-secondary/50 transition-all duration-300 hover:shadow-[0_10px_30px_-10px_rgba(2,12,27,0.7)] group"
+                            className="bg-primary-light p-8 rounded-lg border border-white/5 hover:border-secondary/50 transition-all duration-300 hover:shadow-[0_0_20px_rgba(82,82,82,0.2)] group"
                         >
-                            <div className="mb-6 p-4 bg-primary-dark rounded-full w-fit group-hover:bg-secondary/10 transition-colors duration-300">
+                            <div className="mb-6 p-4 bg-primary rounded-full w-fit group-hover:bg-secondary/10 transition-colors duration-300">
                                 {service.icon}
                             </div>
-                            <h3 className="text-xl font-bold text-text-primary mb-3 group-hover:text-secondary transition-colors">
+                            <h3 className="text-xl font-bold text-white mb-3 group-hover:text-secondary transition-colors">
                                 {service.title}
                             </h3>
                             <p className="text-text-secondary leading-relaxed text-sm">

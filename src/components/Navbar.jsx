@@ -32,9 +32,9 @@ const Navbar = () => {
         >
             <div className="container mx-auto px-6 flex justify-between items-center">
                 <a href="#" className="flex items-center space-x-2 group">
-                    <ShieldCheck className="w-8 h-8 text-secondary group-hover:text-gold transition-colors duration-300" />
-                    <span className="text-2xl font-bold text-text-primary tracking-wider">
-                        FACTUM <span className="text-secondary">DIGITAL</span>
+                    <ShieldCheck className="w-8 h-8 text-gold hover:text-white transition-colors duration-300" />
+                    <span className="text-2xl font-bold text-text-light tracking-wider">
+                        FACTUM <span className="text-gold">DIGITAL</span>
                     </span>
                 </a>
 
@@ -44,7 +44,7 @@ const Navbar = () => {
                         <a
                             key={link.name}
                             href={link.href}
-                            className="text-text-secondary hover:text-secondary transition-colors duration-300 text-sm font-medium uppercase tracking-widest"
+                            className="text-text-dim hover:text-secondary transition-colors duration-300 text-sm font-medium uppercase tracking-widest"
                         >
                             {link.name}
                         </a>
@@ -55,7 +55,7 @@ const Navbar = () => {
                 <div className="md:hidden">
                     <button
                         onClick={() => setIsOpen(!isOpen)}
-                        className="text-text-primary hover:text-secondary transition-colors"
+                        className="text-text-light hover:text-secondary transition-colors"
                     >
                         {isOpen ? <X size={24} /> : <Menu size={24} />}
                     </button>
@@ -75,7 +75,7 @@ const Navbar = () => {
                                 key={link.name}
                                 href={link.href}
                                 onClick={() => setIsOpen(false)}
-                                className="text-text-secondary hover:text-secondary transition-colors block py-2 text-sm font-medium uppercase tracking-widest"
+                                className="text-text-dim hover:text-secondary transition-colors block py-2 text-sm font-medium uppercase tracking-widest"
                             >
                                 {link.name}
                             </a>

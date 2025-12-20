@@ -1,5 +1,5 @@
 import React from 'react';
-import { ShieldCheck, Mail, Phone, MapPin, Instagram } from 'lucide-react';
+import { ShieldCheck, Mail, Instagram } from 'lucide-react';
 
 const Footer = () => {
     return (
@@ -17,7 +17,7 @@ const Footer = () => {
 
                         <div className="flex space-x-4">
 
-                            <a href="#" className="text-text-secondary hover:text-secondary transition-colors">
+                            <a href="#" className="text-text-dim hover:text-secondary transition-colors">
                                 <Instagram size={20} />
                             </a>
                         </div>
@@ -29,7 +29,7 @@ const Footer = () => {
                         <ul className="space-y-3">
                             {['Home', 'Serviços', 'Operação', 'Blog', 'Contato'].map((item) => (
                                 <li key={item}>
-                                    <a href="#" className="text-text-secondary hover:text-secondary text-sm transition-colors">
+                                    <a href="#" className="text-text-dim hover:text-secondary text-sm transition-colors">
                                         {item}
                                     </a>
                                 </li>
@@ -43,7 +43,7 @@ const Footer = () => {
                         <ul className="space-y-3">
                             {['Perícia Digital', 'Laudos Técnicos'].map((item) => (
                                 <li key={item}>
-                                    <a href="#" className="text-text-secondary hover:text-secondary text-sm transition-colors">
+                                    <a href="#" className="text-text-dim hover:text-secondary text-sm transition-colors">
                                         {item}
                                     </a>
                                 </li>
@@ -55,23 +55,15 @@ const Footer = () => {
                     <div>
                         <h4 className="text-white font-bold mb-6 uppercase tracking-widest text-sm">Contato</h4>
                         <ul className="space-y-4">
-                            <li className="flex items-start space-x-3 text-text-secondary text-sm">
-                                <MapPin className="w-5 h-5 text-secondary shrink-0" />
-                                <span>Endereço a definir - São Paulo, SP</span>
-                            </li>
-                            <li className="flex items-center space-x-3 text-text-secondary text-sm">
-                                <Phone className="w-5 h-5 text-secondary shrink-0" />
-                                <span>(11) 99999-9999</span>
-                            </li>
-                            <li className="flex items-center space-x-3 text-text-secondary text-sm">
+                            <li className="flex items-center space-x-3 text-text-dim text-sm">
                                 <Mail className="w-5 h-5 text-secondary shrink-0" />
-                                <span>contato@email.com</span>
+                                <span>contato@factumdigital.com.br</span>
                             </li>
                         </ul>
                     </div>
                 </div>
 
-                <div className="border-t border-white/5 pt-8 flex flex-col md:flex-row justify-between items-center text-xs text-text-secondary">
+                <div className="border-t border-white/5 pt-8 flex flex-col md:flex-row justify-between items-center text-xs text-text-dim">
                     <p>&copy; 2024 Factum Análise Digital. Todos os direitos reservados.</p>
                     <div className="flex space-x-6 mt-4 md:mt-0">
                         <a href="#" className="hover:text-white transition-colors">Política de Privacidade</a>

@@ -27,9 +27,9 @@ const steps = [
 
 const Process = () => {
     return (
-        <section id="process" className="py-20 bg-primary relative overflow-hidden">
+        <section id="process" className="py-20 bg-background relative overflow-hidden">
             {/* Background Decoration */}
-            <div className="absolute top-0 right-0 w-1/3 h-full bg-gradient-to-l from-primary-light/30 to-transparent pointer-events-none"></div>
+            <div className="absolute top-0 right-0 w-1/3 h-full bg-gradient-to-l from-secondary/5 to-transparent pointer-events-none"></div>
 
             <div className="container mx-auto px-6 relative z-10">
                 <div className="flex flex-col md:flex-row items-center justify-between mb-16">
@@ -49,7 +49,7 @@ const Process = () => {
 
                 <div className="relative">
                     {/* Connecting Line (Desktop) */}
-                    <div className="hidden md:block absolute top-1/2 left-0 w-full h-0.5 bg-primary-light -translate-y-1/2 z-0"></div>
+                    <div className="hidden md:block absolute top-1/2 left-0 w-full h-0.5 bg-white/10 -translate-y-1/2 z-0"></div>
 
                     <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
                         {steps.map((step, index) => (
@@ -59,9 +59,9 @@ const Process = () => {
                                 whileInView={{ opacity: 1, y: 0 }}
                                 viewport={{ once: true }}
                                 transition={{ delay: index * 0.2 }}
-                                className="relative z-10 bg-primary border border-white/5 p-6 rounded-lg hover:border-secondary/30 transition-colors group"
+                                className="relative z-10 bg-primary-light border border-white/5 p-6 rounded-lg hover:border-secondary/30 transition-colors group"
                             >
-                                <div className="w-16 h-16 bg-primary-light rounded-full flex items-center justify-center mb-6 mx-auto border-2 border-primary group-hover:border-secondary transition-colors relative">
+                                <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center mb-6 mx-auto border-2 border-white/10 group-hover:border-secondary transition-colors relative">
                                     <div className="text-secondary group-hover:text-white transition-colors">
                                         {step.icon}
                                     </div>

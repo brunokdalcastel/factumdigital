@@ -6,7 +6,7 @@
 
 @layer base {
   body {
-    @apply bg-primary text-text-primary font-sans antialiased;
+    @apply bg-background text-text-primary font-sans antialiased;
   }
 }
 

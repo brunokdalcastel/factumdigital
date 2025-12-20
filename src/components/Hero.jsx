@@ -20,19 +20,19 @@ const Hero = () => {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8 }}
                 >
-                    <div className="inline-flex items-center space-x-2 bg-secondary/10 border border-secondary/20 rounded-full px-4 py-1.5 mb-8 backdrop-blur-sm">
-                        <span className="w-2 h-2 rounded-full bg-secondary animate-pulse"></span>
-                        <span className="text-secondary text-xs font-medium uppercase tracking-widest">Tecnologia Forense Avançada</span>
+                    <div className="inline-flex items-center space-x-2 bg-gold/10 border border-gold/20 rounded-full px-4 py-1.5 mb-8 backdrop-blur-sm">
+                        <span className="w-2 h-2 rounded-full bg-gold animate-pulse"></span>
+                        <span className="text-gold text-xs font-medium uppercase tracking-widest">Tecnologia Forense Avançada</span>
                     </div>
 
                     <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 tracking-tight leading-tight">
                         Excelência em <br />
-                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-secondary to-blue-500">
+                        <span className="text-secondary">
                             Perícia Digital
                         </span>
                     </h1>
 
-                    <p className="text-text-secondary text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed">
+                    <p className="text-gray-400 text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed">
                         Especialistas em perícia digital e laudos técnicos.
                         Transformamos dados em evidências técnicas sólidas e fundamentadas.
                     </p>
@@ -45,7 +45,7 @@ const Hero = () => {
                             </span>
                         </button>
 
-                        <button className="px-8 py-4 border border-text-secondary text-text-primary font-medium rounded hover:bg-white/5 transition-colors flex items-center">
+                        <button className="px-8 py-4 border border-text-secondary text-white font-medium rounded hover:bg-white/5 transition-colors flex items-center">
                             <Search className="mr-2 w-5 h-5" />
                             Conheça Nossos Serviços
                         </button>
@@ -60,7 +60,7 @@ const Hero = () => {
                 transition={{ delay: 1, duration: 1 }}
                 className="absolute bottom-10 left-1/2 transform -translate-x-1/2 flex flex-col items-center"
             >
-                <span className="text-text-secondary text-xs uppercase tracking-widest mb-2">Scroll</span>
+                <span className="text-gray-400 text-xs uppercase tracking-widest mb-2">Scroll</span>
                 <div className="w-[1px] h-12 bg-gradient-to-b from-secondary to-transparent"></div>
             </motion.div>
         </section>

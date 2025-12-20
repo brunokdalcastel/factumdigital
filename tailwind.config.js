@@ -8,21 +8,27 @@ export default {
     extend: {
       colors: {
         primary: {
-          DEFAULT: '#0a192f', // Deep Navy Blue
-          light: '#112240',
-          dark: '#020c1b',
+          DEFAULT: '#0a0a0a', // Black/Dark Gray (CSI/Forensic)
+          light: '#1a1a1a',   // Slightly lighter for cards/sections
+          dark: '#000000',
         },
         secondary: {
-          DEFAULT: '#64ffda', // Cyan/Teal
-          dim: 'rgba(100, 255, 218, 0.1)',
+          DEFAULT: '#525252', // Stealth (Monochrome)
+          dim: 'rgba(82, 82, 82, 0.1)',
         },
         gold: {
-          DEFAULT: '#ffd700', // Gold
-          dim: 'rgba(255, 215, 0, 0.1)',
+          DEFAULT: '#fcd34d', // Gold Accents
+          dim: 'rgba(252, 211, 77, 0.1)',
+        },
+        background: {
+          DEFAULT: '#0a0a0a', // Dark Background
+          paper: '#1a1a1a',
         },
         text: {
-          primary: '#ccd6f6',
-          secondary: '#8892b0',
+          primary: '#e0e0e0', // Light Gray (Main text)
+          secondary: '#a0a0a0', // Dimmer gray
+          light: '#ffffff', // Pure white
+          dim: '#666666',
         }
       },
       fontFamily: {
