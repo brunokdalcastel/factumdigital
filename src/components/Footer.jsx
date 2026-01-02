@@ -17,7 +17,7 @@ const Footer = () => {
 
                         <div className="flex space-x-4">
 
-                            <a href="#" className="text-text-dim hover:text-secondary transition-colors">
+                            <a href="https://www.instagram.com/digitalfactum/" target="_blank" rel="noopener noreferrer" className="text-text-dim hover:text-secondary transition-colors">
                                 <Instagram size={20} />
                             </a>
                         </div>
