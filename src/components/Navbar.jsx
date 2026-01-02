@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { Menu, X, ShieldCheck } from 'lucide-react';
+import { Menu, X, ShieldCheck, Instagram } from 'lucide-react';
 import { clsx } from 'clsx';
 
 const Navbar = () => {
@@ -48,6 +48,14 @@ const Navbar = () => {
                             {link.name}
                         </a>
                     ))}
+                    <a
+                        href="https://www.instagram.com/digitalfactum/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-text-dim hover:text-secondary transition-colors duration-300"
+                    >
+                        <Instagram size={20} />
+                    </a>
                 </div>
 
                 {/* Mobile Menu Button */}
