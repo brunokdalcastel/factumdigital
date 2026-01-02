@@ -1,25 +1,17 @@
 import React from 'react';
-import { ShieldCheck, Mail, Instagram } from 'lucide-react';
+import { ShieldCheck, Mail } from 'lucide-react';
 
 const Footer = () => {
     return (
         <footer id="contact" className="bg-primary-dark pt-16 pb-8 border-t border-white/5">
             <div className="container mx-auto px-6">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
-                    {/* Brand Column */}
                     <div>
                         <div className="flex items-center space-x-2 mb-6">
                             <ShieldCheck className="w-8 h-8 text-secondary" />
                             <span className="text-2xl font-bold text-white tracking-wider">
                                 FACTUM <span className="text-secondary">DIGITAL</span>
                             </span>
-                        </div>
-
-                        <div className="flex space-x-4">
-
-                            <a href="https://www.instagram.com/digitalfactum/" target="_blank" rel="noopener noreferrer" className="text-text-dim hover:text-secondary transition-colors">
-                                <Instagram size={20} />
-                            </a>
                         </div>
                     </div>
 
