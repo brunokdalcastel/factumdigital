@@ -61,7 +61,7 @@ const Footer = () => {
                 </div>
 
                 <div className="border-t border-white/5 pt-8 flex flex-col md:flex-row justify-center md:justify-start items-center text-xs text-text-dim">
-                    <p>&copy; 2024 Factum Análise Digital. Todos os direitos reservados.</p>
+                    <p>&copy; {new Date().getFullYear()} Factum Análise Digital. Todos os direitos reservados.</p>
                 </div>
             </div>
         </footer>
