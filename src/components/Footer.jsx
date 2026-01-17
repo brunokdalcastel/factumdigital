@@ -60,12 +60,8 @@ const Footer = () => {
                     </div>
                 </div>
 
-                <div className="border-t border-white/5 pt-8 flex flex-col md:flex-row justify-between items-center text-xs text-text-dim">
+                <div className="border-t border-white/5 pt-8 flex flex-col md:flex-row justify-center md:justify-start items-center text-xs text-text-dim">
                     <p>&copy; 2024 Factum Análise Digital. Todos os direitos reservados.</p>
-                    <div className="flex space-x-6 mt-4 md:mt-0">
-                        <a href="#" className="hover:text-white transition-colors">Política de Privacidade</a>
-                        <a href="#" className="hover:text-white transition-colors">Termos de Uso</a>
-                    </div>
                 </div>
             </div>
         </footer>
